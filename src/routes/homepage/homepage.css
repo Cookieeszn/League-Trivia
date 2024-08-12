@@ -1,0 +1,61 @@
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 80vh;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 50px;
+  }
+
+  .main-content {
+    background: linear-gradient(to right, #fe8c00, #f83600);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 0 16px;
+    padding: 0;
+  }
+
+  .start {
+    background-color: grey;
+    color: black;
+    border-radius: 14px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 5px;
+
+    &:hover {
+      background-color: #32de84;
+      color: white;
+    }
+  }
+}

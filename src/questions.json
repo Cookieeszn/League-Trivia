@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "When does Kha'Zix get healed from his W?",
+      "choices": [
+        "W near him",
+        "W evolved",
+        "W is maxed",
+        "W hits two enemies"
+      ],
+      "correctAnswerIdx": 1
+    },
+    {
+      "question": "Who controls the dragon's ultimate ability?",
+      "choices": [
+        "The dragon",
+        "The dragon's master",
+        "The dragon's allies",
+        "The dragon's enemies"
+      ],
+      "correctAnswerIdx": 3
+    }
+  ]
+}
