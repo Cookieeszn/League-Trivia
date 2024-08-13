@@ -1,5 +1,4 @@
 import "./trivia.css";
-import { questions } from "../../questions.json";
 import { useState } from "react";
 
 const Trivia = ({ question, onAnswerSubmit }) => {
@@ -37,9 +36,7 @@ const Trivia = ({ question, onAnswerSubmit }) => {
           ))}
         </div>
       </div>
-      <button onClick={handleSubmit} className="submit-button">
-        Submit
-      </button>
+      <button onClick={handleSubmit}>Submit</button>
     </>
   );
 };

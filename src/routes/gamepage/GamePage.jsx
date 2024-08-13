@@ -1,4 +1,4 @@
-import StatBar from "../../components/StatBar";
+import StatBar from "../../components/statbar/StatBar";
 import Trivia from "../../components/trivia/Trivia";
 import GameOver from "../gameover/GameOver";
 import "./gamePage.css";
