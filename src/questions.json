@@ -11,14 +11,54 @@
       "correctAnswerIdx": 1
     },
     {
-      "question": "Who controls the dragon's ultimate ability?",
-      "choices": [
-        "The dragon",
-        "The dragon's master",
-        "The dragon's allies",
-        "The dragon's enemies"
-      ],
+      "question": "Which champion has the ultimate ability 'Chronoshift'?",
+      "choices": ["Soraka", "Zilean", "Karma", "Taric"],
+      "correctAnswerIdx": 1
+    },
+    {
+      "question": "Which champion's passive ability deals bonus magic damage with every third auto-attack?",
+      "choices": ["Vayne", "Ashe", "Twisted Fate", "Kennen"],
       "correctAnswerIdx": 3
+    },
+    {
+      "question": "What is the name of Riven's broken sword ability that can be reactivated three times?",
+      "choices": ["Blade of the Exile", "Broken Wings", "Valor", "Ki Burst"],
+      "correctAnswerIdx": 1
+    },
+    {
+      "question": "Which champion is known as 'The Unforgiven'?",
+      "choices": ["Yasuo", "Zed", "Akali", "Master Yi"],
+      "correctAnswerIdx": 0
+    },
+    {
+      "question": "Which of the following champions has a passive ability that allows them to store extra health?",
+      "choices": ["Tahm Kench", "Sion", "Dr. Mundo", "Garen"],
+      "correctAnswerIdx": 0
+    },
+    {
+      "question": "What is the maximum number of stacks Nasus' Q ability, 'Siphoning Strike,' can theoretically achieve, in 2012?",
+      "choices": ["500", "1000", "999", "No Limit"],
+      "correctAnswerIdx": 3
+    },
+    {
+      "question": "Which champion’s passive ability, when fully stacked, grants them 15% increased damage against enemy champions below 35% health?",
+      "choices": ["Vladimir", "Jhin", "Darius", "Aatrox"],
+      "correctAnswerIdx": 2
+    },
+    {
+      "question": "Which item grants the active ability, which makes the user invulnerable and untargetable for 2.5 seconds?",
+      "choices": [
+        "Banshee's Veil",
+        "Zhonya's Hourglass",
+        "Morellonomicom",
+        "Liandry's Anguish"
+      ],
+      "correctAnswerIdx": 1
+    },
+    {
+      "question": "In League of Legends lore, who is the leader of the Kinkou Order?",
+      "choices": ["Akali", "Shen", "Zed", "Kennen"],
+      "correctAnswerIdx": 1
     }
   ]
 }

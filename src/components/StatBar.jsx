@@ -3,8 +3,8 @@ import "./statBar.css";
 const StatBar = ({
   currentQuestion,
   totalQuestions,
-  correctQuestions,
-  incorrectQuestions,
+  correctAnswers,
+  incorrectAnswers,
   points,
 }) => {
   return (
@@ -12,8 +12,8 @@ const StatBar = ({
       <p>
         Question: {currentQuestion}/{totalQuestions}
       </p>
-      <p>Correct: {correctQuestions}</p>
-      <p>Incorrect: {incorrectQuestions}</p>
+      <p>Correct: {correctAnswers}</p>
+      <p>Incorrect: {incorrectAnswers}</p>
       <p>Points: {points}</p>
     </div>
   );

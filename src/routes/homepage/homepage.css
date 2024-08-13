@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 100px;
-  height: 80vh;
+  height: 100%;
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -12,10 +12,16 @@
   }
 
   .main-content {
-    background: linear-gradient(to right, #fe8c00, #f83600);
+    font-size: 128px;
+    background: linear-gradient(to right, #217bfe, #e55571);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    filter: brightness(1.4) contrast(1);
+
+    @media screen and (max-width: 1200px) {
+      font-size: 64px;
+    }
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -54,7 +60,7 @@
     margin-top: 5px;
 
     &:hover {
-      background-color: #32de84;
+      background-color: #26965c;
       color: white;
     }
   }
