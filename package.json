@@ -1,8 +1,8 @@
 {
-  "name": "aichatstarter",
+  "name": "league-trivia",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Cookieeszn.github.io/Leavue-Trivia",
+  "homepage": "https://cookieeszn.github.io/Leavue-Trivia",
   "type": "module",
   "scripts": {
     "dev": "vite",
