@@ -49,10 +49,10 @@ const GamePage = () => {
     <div className="gamePage">
       <h1>League Trivia</h1>
       <StatBar
-        currentQuestion={currentQuestionIdx + 1}
-        totalQuestions={totalQuestions + 1}
-        correctAnswers={correctAnswers + 1}
-        incorrectAnswers={incorrectAnswers + 1}
+        currentQuestion={currentQuestionIdx}
+        totalQuestions={totalQuestions}
+        correctAnswers={correctAnswers}
+        incorrectAnswers={incorrectAnswers}
         points={correctAnswers * 20}
       />
       {currentQuestionIdx < totalQuestions && (
